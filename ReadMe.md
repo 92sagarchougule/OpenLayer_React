@@ -16,3 +16,7 @@
 3. Run npm
 
     <h3> npm start </h3>
+    
+4. For clone with exesting code run bellow command
+
+ <h3> npm install react-scripts --save </h3>
