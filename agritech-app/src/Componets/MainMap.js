@@ -14,7 +14,7 @@ function MainMap(){
 
     return (<>
     
-        <Map view={{center:[10,80], zoom:5}}>
+        <Map view={{center:[261720, 5951081], zoom:5}}>
 
 
       
