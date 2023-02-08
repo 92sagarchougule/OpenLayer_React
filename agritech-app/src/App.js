@@ -1,29 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
-import {
-  Map, Layers, layer
-} from "react-openlayers";
+import './App.css';
+import Header from './Componets/header';
+
+
+import MainMap from './Componets/MainMap';
 
 function App() {
   return (<>
-  
-  <Map view={{center:[0,0], zoom:2}}>
 
-      <Layers>
-
-        <layer.Tile>
-
-        </layer.Tile>
-      </Layers>
-
-    </Map>
+  <Header/>
+  <MainMap />
     
-    <h1> Hello World</h1>
-
+    
   </>
     
-
   );
 }
 
