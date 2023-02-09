@@ -10,10 +10,7 @@ import './header.css';
 
 const Header = () => (
 	<div id="header-grid">
-		<div id="logo-grid">
-			{/*<h3 id="logo">LOGO</h3>*/}
-			
-		</div>
+		
 
 		
 		<div id="title-grid">

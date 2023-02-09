@@ -42,6 +42,7 @@
   display: grid;
   grid-template-areas: "title";
   text-align: center;
+  align-items: center;
 }
 #title {
 /*  grid-area: title;
@@ -60,7 +61,8 @@
   /*color: rgba(175, 195, 225);*/
   color: rgba(255, 255, 255);
   text-shadow: 0 0 3px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-  
+  text-align: center;
+  align-items: center;
 }
 #site-search-grid {
   grid-area: site_search_grid;

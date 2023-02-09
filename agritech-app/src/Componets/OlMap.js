@@ -10,11 +10,6 @@ import { Image as ImageLayer, Tile as TileLayer } from 'ol/layer';
 import ImageWMS from 'ol/source/ImageWMS';
 
 
-
-
-function OlMap(){
-
-
 // Layers
 var layers = [
 
@@ -54,13 +49,16 @@ class OlMap extends Component {
 	}
 	render() {
 
-		return (
+		return (<>
+		
 			<div>
 				<div id="map" style={{ width: "1610px", height: "900px" }}></div>
 			</div>
+			</>
+			
 		)
 	}
 }
-}
+
 
 export default OlMap;
