@@ -3,6 +3,7 @@ import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Dropdown.css'
+import { Button } from 'bootstrap';
 
 const Districts = [
   { label: "Nagpur", value: 1},
@@ -74,71 +75,38 @@ class Dropdown extends Component {
       <>
 
 
-      {/* District Dropdown */}
+<div class="grid-container">
+  <div>
+    
+    <h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select District : </h4 >  
 
-<div className="container">
 
-        
-
-<div className="row">
-<div className="col-md-3"></div>
-<div className="col-md-6">
-
-<h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select District : 
-
-  </h4 >  
 
 <Select options={Districts} />
-
 </div>
-<div className="col-md-4"></div>
 
 
-
-
-{/* Taluk Dropdown */}
-
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6">
-
-         <h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select Taluk : 
+  <div>
+    
+    <h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select Taluk : 
          
          </h4 >  
          
-         <Select options={Taluk} />
-            
-          </div>
-          <div className="col-md-4"></div>
-        </div>
-      </div>
+    <Select options={Taluk} />
+  </div>
 
 
-
-
-{/* Village Drop down */}
-
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6">
-
-         <h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select Village : 
+  <div><h4 çlassName ='DistLable' style={{color:'green', textAlign:'center'}}> Select Village : 
          
          </h4 >  
          
          <Select options={Village} />
-         <br></br>
+         
+  </div>  
+ 
+ 
+</div>
 
-         <button type='button' className = 'ExtMap'> Extent Map</button>
-            
-          </div>
-          <div className="col-md-4"></div>
-        </div>
-      </div>
-</div>
-</div>
 
 
 
