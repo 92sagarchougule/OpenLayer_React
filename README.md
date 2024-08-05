@@ -5,5 +5,5 @@ Install Node.js if you haven't already: https://nodejs.org/
  Navigate to the project directory
 # cd my-openlayers-app
 
- Install OpenLayers
+ -- Install OpenLayers
 # npm install ol
